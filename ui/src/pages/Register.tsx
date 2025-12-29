@@ -23,8 +23,10 @@ export default function Register() {
             });
             login(data.token, data.user);
             navigate('/');
-        } catch (error) {
-            alert('Registration failed');
+        } catch (error: any) {
+            console.error(error);
+            const msg = error.response?.data?.error || error.message || 'Unknown error';
+            alert(`Debug: ${msg}\nStatus: ${error.response?.status}\nURL: ${error.config?.url}`);
         }
     };
 
