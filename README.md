@@ -1,4 +1,4 @@
-# SayonEdge
+# Find My Doctor
 
 This is a full-stack medical appointment management system. It consists of a Node.js/Express backend (`service`) and a React/Vite frontend (`ui`).
 
