@@ -1,6 +1,12 @@
-# SayonEdge
+# FindMyDoctor
 
-This is a full-stack medical appointment management system. It consists of a Node.js/Express backend (`service`) and a React/Vite frontend (`ui`).
+## Project Overview
+
+FindMyDoctor is a comprehensive full-stack healthcare platform designed to modernize the interaction between patients and medical professionals. The system serves as a centralized hub for managing the entire clinical workflow, from patient registration to consultation completion. It features a robust role-based architecture that creates distinct secure environments for Patients, Doctors, and Administrators, ensuring appropriate access controls and streamlined operations for each user group.
+
+Technologically, the application leverages a high-performance backend built on Node.js and Express, utilizing PostgreSQL for reliable data persistence. By integrating Prisma ORM, the system ensures type-safe database interactions, effectively managing complex entity relationships such as doctor profiles, appointment scheduling, and digital prescriptions. The frontend is engineered with React and Vite, styled with TailwindCSS to deliver a highly responsive and accessible user interface. Key functionalities include real-time appointment booking, an interactive status tracking system (managing states from "Pending" to "Completed"), and a dedicated prescription module that allows doctors to issue digital medical records directly linked to specific appointments. This end-to-end solution significantly effectively reduces administrative overhead while enhancing data security through JWT-based authentication.
+
+The project consists of a Node.js/Express backend (`service`) and a React/Vite frontend (`ui`).
 
 ## Prerequisites
 
