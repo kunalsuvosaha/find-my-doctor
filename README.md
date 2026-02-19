@@ -1,4 +1,4 @@
-# FindMyDoctor
+# Find My Doctor
 
 ## Project Overview
 
